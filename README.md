@@ -7,15 +7,15 @@ This is is a PyTorch implementation of the superpixel segmentation network intro
 ## Introduction
 The Illustration of AINet:
 
-<img src="https://github.com/wangyxxjtu/AINet/blob/master/framework/workflow.png" width="845" alt="workflow" />
+<img src="https://github.com/YanFangCS/AINet/blob/master/framework/workflow.png" width="845" alt="workflow" />
 
 The visual comparison of our AINet and the SOTA methods:
 
-<img src="https://github.com/wangyxxjtu/AINet/blob/master/framework/superpixel.png" width="845" alt="workflow" />
+<img src="https://github.com/YanFangCS/AINet/blob/master/framework/superpixel.png" width="845" alt="workflow" />
 
 By merging superpixels, some object proposals could be generated:
 
-<img src="https://github.com/wangyxxjtu/AINet/blob/master/framework/object_proposal.png" width="845" alt="workflow" />
+<img src="https://github.com/YanFangCS/AINet/blob/master/framework/object_proposal.png" width="845" alt="workflow" />
 
 ## Prerequisites
 The training code was mainly developed and tested with python 2.7, PyTorch 0.4.1, CUDA 9, and Ubuntu 16.04.
@@ -115,6 +115,18 @@ several files should be generated in the ```map_csv``` folders in the correspond
 ```
 python plot_benchmark_curve.py --path '/home/name/superpixel/AINet/eval/test_multiscale_enforce_connect/' #will generate the similar curves in the paper
 ```
- 
+## Citation
+If you use our code, please cite our work:
+``` bash
+@InProceedings{Wang_2021_ICCV,
+    author    = {Wang, Yaxiong and Wei, Yunchao and Qian, Xueming and Zhu, Li and Yang, Yi},
+    title     = {AINet: Association Implantation for Superpixel Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {7078-7087}
+}
+```
+
 ## Acknowledgement
 This code is built on the top of SCN: https://github.com/fuy34/superpixel_fcn Thank the authors' contribution. 
