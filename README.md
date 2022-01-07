@@ -7,15 +7,15 @@ This is is a PyTorch implementation of the superpixel segmentation network intro
 ## Introduction
 The Illustration of AINet:
 
-<img src="https://github.com/YanFangCS/AINet/blob/master/framework/workflow.png" width="845" alt="workflow" />
+<img src="framework/workflow.png" width="845" alt="workflow" />
 
 The visual comparison of our AINet and the SOTA methods:
 
-<img src="https://github.com/YanFangCS/AINet/blob/master/framework/superpixel.png" width="845" alt="workflow" />
+<img src="framework/superpixel.png" width="845" alt="workflow" />
 
 By merging superpixels, some object proposals could be generated:
 
-<img src="https://github.com/YanFangCS/AINet/blob/master/framework/object_proposal.png" width="845" alt="workflow" />
+<img src="framework/object_proposal.png" width="845" alt="workflow" />
 
 ## Prerequisites
 The training code was mainly developed and tested with python 2.7, PyTorch 0.4.1, CUDA 9, and Ubuntu 16.04.
